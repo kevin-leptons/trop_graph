@@ -16,4 +16,4 @@ const {
 * [Contribution](contribution.md)
 
 **Related**: [@trop/gear](https://github.com/kevin-leptons/trop_gear),
-[@trop/engin](https://github.com/kevin-leptons/trop_engine)
+[@trop/engine](https://github.com/kevin-leptons/trop_engine)
