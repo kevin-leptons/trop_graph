@@ -1,6 +1,6 @@
 {
   "name": "@trop/graph",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Essential data structures and algorithms for graph",
   "main": "lib/index.js",
   "scripts": {
