@@ -41,7 +41,7 @@ const {DirectedGraph} = require('@trop/std/graph')
     * data / any - Data corresponds with vertex
 * Output - none
 * Exception
-    * ExistedError - Vertex is already existed
+    * Conflict - Vertex is already existed
 
 ## add_edge(begin, end)
 
@@ -52,9 +52,9 @@ const {DirectedGraph} = require('@trop/std/graph')
     * end / any - end vertex
 * Output - none
 * Exception
-    * NotExistedError - Begin vertex does not exists
-    * NotExistedError - End vertex does not exists
-    * ExistedError - Edge is already existed
+    * NotFound - Begin vertex does not exists
+    * NotFound - End vertex does not exists
+    * Conflict - Edge is already existed
 
 ## vertex(index)
 
@@ -68,7 +68,7 @@ const {DirectedGraph} = require('@trop/std/graph')
      * data / any - corresponds data of vertex
      * and other attributes which is assigns by other agents
 * Exception
-    * NotExistedError - Vertex does not exists
+    * NotFound - Vertex does not exists
 
 
 ## neighbours(vertex)
@@ -80,7 +80,7 @@ const {DirectedGraph} = require('@trop/std/graph')
 * Output
     * Set<any> - Set of identity of neighbour vertexes
 * Exception
-    * NotExistedError - Vertex does not exists
+    * NotFound - Vertex does not exists
 
 
 ## has_edge(begin, end)
@@ -101,8 +101,8 @@ const {DirectedGraph} = require('@trop/std/graph')
     * index / any - Identity of vertex to remove
 * Output - none
 * Exception
-    * NotExistedError - Vertex does not exists
-    * RelationError - Vertex is in other edges
+    * NotFound - Vertex does not exists
+    * Conflict - Vertex is in other edges
 
 ## del_edge(begin, end)
 
@@ -113,7 +113,7 @@ const {DirectedGraph} = require('@trop/std/graph')
     * end / any - Identity of end vertex
 * Output - none
 * Exception
-    * NotExistedError - Edge does not exists
+    * NotFound - Edge does not exists
 
 ## Example    
 
