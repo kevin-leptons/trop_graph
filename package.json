@@ -25,6 +25,6 @@
     "mocha": "^6.1.4"
   },
   "dependencies": {
-    "@trop/gear": "^0.1.0"
+    "@trop/gear": "^0.2.0"
   }
 }
