@@ -17,5 +17,3 @@ const {
 
 **Related**: [@trop/gear](https://github.com/kevin-leptons/trop_gear),
 [@trop/engine](https://github.com/kevin-leptons/trop_engine)
-
-try guard rails
